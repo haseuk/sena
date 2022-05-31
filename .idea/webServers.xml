@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79fa5b19-3862-4f40-8b30-a3c97fd580f3" name="sena" url="http://sena.devcraft.kr">
+        <fileTransfer rootFolder="/var/www/sena" accessType="SFTP" host="devcraft.kr" port="22" sshConfigId="8aeda299-0d61-49b2-bdf0-171e6a01e9e9" sshConfig="root@devcraft.kr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
