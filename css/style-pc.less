@@ -319,7 +319,7 @@
         .inner { .w(720); .br(26); transform: translateX(-50%);
           .top { .p(40,50,55);
             .tit { .fs(38); }
-            .g-tit { .fs(32); .lh(37); .m(70,0,39); .pl(23);
+            .g-tit { .fs(32); .lh(37); .m(55,0,30); .pl(23);
               &:after { .cnt; .wh(7,37); }
             }
             .answer-wrap div, .info-wrap label { .fs(28); .ls(-0.05em); .lh(50); }
@@ -334,6 +334,22 @@
               input { .fs(28); .pl(25); .-a(@red,2px); .-box; }
               span { .fs(25); .ib; .pl(148); .-box; .mb(20); color:@red; }
               .noti { .fs(18); .pl(130); .-box; }
+            }
+            .agree-wrap { .mt(55);
+              .tit { .fs(25); .mb(10); }
+              .agr-txt { .-a(#666666);.p(20,20); .h(160); .mb(10);
+                p { .fs(20); .lh(28); .ls(-0.05em); .mb(10);
+                  &.t { .bold; .mt(15); }
+                  &.x { .ml(20); }
+                }
+              }
+              .agr-box {
+                label { .ml(30);
+                  input[type=radio] + i { .wh(22,22); .contain('../images/pc/agr-chk.png'); .mr(5); }
+                  input[type=radio]:checked + i { .contain('../images/pc/agr-chkd.png'); }
+                  s { .fs(20); .lh(22); .mt(5); }
+                }
+              }
             }
           }
           .notice { .p(50,40);

@@ -309,6 +309,24 @@ input { outline: none; }
             input { .fs(35); .wh(390,60); .lh(60); .pl(15); .-box; .-a(@red,2px); .mb(22); .-box; }
             span { .fs(28); .ib; .pl(200); .-box; .mb(20); color:@red; }
             .noti { .fs(28); }
+
+          }
+          .agree-wrap { .tl; .mt(70);
+            .tit { .fs(35); .bold; .mb(15); }
+            .agr-txt { .-a(#666666); .-box; .p(20,30); .h(228); overflow:auto; .mb(20);
+              p { .fs(26); .lh(38); .ls(-0.05em); .mb(10);
+                &.t { .bold; .mt(15); }
+                &.x { .ml(20); }
+              }
+            }
+            .agr-box { .tr;
+              label { .ml(50); .ib; .vam;
+                input[type=radio] + i { .wh(33,33); .contain('../images/mo/agr-chk.png'); .ib; .vam; .mr(10); }
+                input[type=radio]:checked + i { .contain('../images/mo/agr-chkd.png'); }
+                s { .fs(28); .lh(33); .mt(5); .ib; .vam; }
+                input { .hide; }
+              }
+            }
           }
         }
         .notice { .bgc(#eee); .p(55,35); .-box;

@@ -1338,6 +1338,72 @@ input {
 .container .wrap .popup .inner .top .info-wrap .noti {
   font-size: 0.77777778rem;
 }
+.container .wrap .popup .inner .top .agree-wrap {
+  text-align: left;
+  margin-top: 1.94444444rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .tit {
+  font-size: 0.97222222rem;
+  font-weight: 700;
+  margin-bottom: 0.41666667rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-txt {
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  padding-top: 0.55555556rem;
+  padding-right: 0.83333333rem;
+  padding-bottom: 0.55555556rem;
+  padding-left: 0.83333333rem;
+  height: 6.33333333rem;
+  overflow: auto;
+  margin-bottom: 0.55555556rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-txt p {
+  font-size: 0.72222222rem;
+  line-height: 1.05555556rem;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.27777778rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-txt p.t {
+  font-weight: 700;
+  margin-top: 0.41666667rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-txt p.x {
+  margin-left: 0.55555556rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box {
+  text-align: right;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box label {
+  margin-left: 1.38888889rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box label input[type=radio] + i {
+  width: 0.91666667rem;
+  height: 0.91666667rem;
+  background-repeat: no-repeat;
+  background-image: url('../images/mo/agr-chk.png');
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.27777778rem;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box label input[type=radio]:checked + i {
+  background-repeat: no-repeat;
+  background-image: url('../images/mo/agr-chkd.png');
+  background-size: contain;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box label s {
+  font-size: 0.77777778rem;
+  line-height: 0.91666667rem;
+  margin-top: 0.13888889rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.container .wrap .popup .inner .top .agree-wrap .agr-box label input {
+  display: none;
+}
 .container .wrap .popup .inner .notice {
   background-color: #eee;
   padding-top: 1.52777778rem;

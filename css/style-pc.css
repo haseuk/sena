@@ -1138,9 +1138,9 @@
   .container .wrap .popup .inner .top .g-tit {
     font-size: 1.77777778rem;
     line-height: 2.05555556rem;
-    margin-top: 3.88888889rem;
+    margin-top: 3.05555556rem;
     margin-right: 0rem;
-    margin-bottom: 2.16666667rem;
+    margin-bottom: 1.66666667rem;
     margin-left: 0rem;
     padding-left: 1.27777778rem;
   }
@@ -1204,6 +1204,56 @@
     font-size: 1rem;
     padding-left: 7.22222222rem;
     box-sizing: border-box;
+  }
+  .container .wrap .popup .inner .top .agree-wrap {
+    margin-top: 3.05555556rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .tit {
+    font-size: 1.38888889rem;
+    margin-bottom: 0.55555556rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-txt {
+    border: 1px solid #666666;
+    padding-top: 1.11111111rem;
+    padding-right: 1.11111111rem;
+    padding-bottom: 1.11111111rem;
+    padding-left: 1.11111111rem;
+    height: 8.88888889rem;
+    margin-bottom: 0.55555556rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-txt p {
+    font-size: 1.11111111rem;
+    line-height: 1.55555556rem;
+    letter-spacing: -0.05em;
+    margin-bottom: 0.55555556rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-txt p.t {
+    font-weight: 700;
+    margin-top: 0.83333333rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-txt p.x {
+    margin-left: 1.11111111rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-box label {
+    margin-left: 1.66666667rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-box label input[type=radio] + i {
+    width: 1.22222222rem;
+    height: 1.22222222rem;
+    background-repeat: no-repeat;
+    background-image: url('../images/pc/agr-chk.png');
+    background-size: contain;
+    margin-right: 0.27777778rem;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-box label input[type=radio]:checked + i {
+    background-repeat: no-repeat;
+    background-image: url('../images/pc/agr-chkd.png');
+    background-size: contain;
+  }
+  .container .wrap .popup .inner .top .agree-wrap .agr-box label s {
+    font-size: 1.11111111rem;
+    line-height: 1.22222222rem;
+    margin-top: 0.27777778rem;
   }
   .container .wrap .popup .inner .notice {
     padding-top: 2.77777778rem;
