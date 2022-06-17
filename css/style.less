@@ -30,6 +30,11 @@ input { outline: none; }
             &.on { .bgc(#fff);
               a { color:@red; .regular; }
             }
+            &.play { .bgc(#000); .pt(68); .-b;
+              a { .fs(32); .xoi; .regular;
+                img { .wh(43,43); .m(0,8); }
+              }
+            }
           }
         }
         .close { .wh(117,120); .contain('../images/mo/x.png'); .abs; .rt; z-index: 10; }
@@ -57,7 +62,9 @@ input { outline: none; }
         .txt em { .bold; }
         .intro-block { .mt(75);
           iframe { .wh(90%,370); .mb(45); }
-          .txt { color:#666; .regular; }
+          .txt { color:#666; .regular;
+            em { .medium; }
+          }
         }
       }
       &.arti-evt { .-t(@red,4px); .rel; overflow: hidden; .-box;
@@ -238,13 +245,17 @@ input { outline: none; }
             s { .fs(40); .lh(55); }
             i { .fs(65); .regular; .lh(80); .ib; .vam; }
           }
+          .cell { .rel; }
+          .sub-tit { .fs(23); .lh(30); color:#000; .ls(-0.05em); .mt(50); .abs; .w(288); .lt(50%,270); .ml(-304);
+            em { .bold; }
+          }
           .h { .w(730); .mh-c; }
           .txt1 { .fs(35); .bold; .lh(45); font-style: italic; .mb(30); }
           .txt2 { .fs(27); .lh(38); }
           .detail { .fs(32); .medium; .wh(320,78); .lh(78); .tc; color:@red; .bgc(#fff); .m(45,0,80); }
           &.h-inner1 {
             .img { background: url('../images/mo/img1.png')no-repeat top center; .cover; }
-            .h { .contain('../images/mo/h1.png'); .h(447); }
+            .h { .contain('../images/mo/h1.png'); .h(564); }
           }
           &.h-inner2 {
             .img { background: url('../images/mo/img2.png') no-repeat top center; .cover; }
@@ -253,6 +264,8 @@ input { outline: none; }
         }
       }
       &.tech { .h(1954); background: url("../images/mo/tech-bg.png") no-repeat center center; .cover; .p(85,35,65); .-box;
+        .top-h span { .fs(30); .medium; color:#fff; .ib; .lh(50); .tc; .p(0,35); .-box; .br(25); .bgc(@red); }
+        h3 { .mt(25); }
         .txt-area { .m(65,0,70); .p(50,0,35); .rel;
           &:after { .cnt; .wh(660,215); .contain('../images/mo/box.png'); .abs; .lt(50%,0); transform: translateX(-50%); }
           .tit { .fs(40); .lh(45); .bold; .w(300); .abs; .lt(50%,-20); .ml(-150); }

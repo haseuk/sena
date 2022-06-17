@@ -139,6 +139,24 @@ input {
   color: #b32d26;
   font-weight: 400;
 }
+.container .wrap header .menu-list ul li.play {
+  background-color: #000;
+  padding-top: 1.88888889rem;
+  border-bottom: 0;
+}
+.container .wrap header .menu-list ul li.play a {
+  font-size: 0.88888889rem;
+  font-family: 'Xoireqe', sans-serif;
+  font-weight: 400;
+}
+.container .wrap header .menu-list ul li.play a img {
+  width: 1.19444444rem;
+  height: 1.19444444rem;
+  margin-top: 0rem;
+  margin-right: 0.22222222rem;
+  margin-bottom: 0rem;
+  margin-left: 0.22222222rem;
+}
 .container .wrap header .menu-list .close {
   width: 3.25rem;
   height: 3.33333333rem;
@@ -244,6 +262,9 @@ input {
 .container .wrap article.top .intro-block .txt {
   color: #666;
   font-weight: 400;
+}
+.container .wrap article.top .intro-block .txt em {
+  font-weight: 500;
 }
 .container .wrap article.arti-evt {
   border-top: 4px solid #b32d26;
@@ -963,6 +984,26 @@ input {
   display: inline-block;
   vertical-align: middle;
 }
+.container .wrap article.helmet .h-inner .cell {
+  position: relative;
+}
+.container .wrap article.helmet .h-inner .sub-tit {
+  font-size: 0.63888889rem;
+  line-height: 0.83333333rem;
+  color: #000;
+  letter-spacing: -0.05em;
+  margin-top: 1.38888889rem;
+  position: absolute;
+  width: 8rem;
+  left: 50%;
+  top: 7.5rem;
+  right: auto;
+  bottom: auto;
+  margin-left: -8.44444444rem;
+}
+.container .wrap article.helmet .h-inner .sub-tit em {
+  font-weight: 700;
+}
 .container .wrap article.helmet .h-inner .h {
   width: 20.27777778rem;
   margin-left: auto;
@@ -1001,7 +1042,7 @@ input {
   background-repeat: no-repeat;
   background-image: url('../images/mo/h1.png');
   background-size: contain;
-  height: 12.41666667rem;
+  height: 15.66666667rem;
 }
 .container .wrap article.helmet .h-inner.h-inner2 .img {
   background: url('../images/mo/img2.png') no-repeat top center;
@@ -1022,6 +1063,24 @@ input {
   padding-bottom: 1.80555556rem;
   padding-left: 0.97222222rem;
   box-sizing: border-box;
+}
+.container .wrap article.tech .top-h span {
+  font-size: 0.83333333rem;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.38888889rem;
+  text-align: center;
+  padding-top: 0rem;
+  padding-right: 0.97222222rem;
+  padding-bottom: 0rem;
+  padding-left: 0.97222222rem;
+  box-sizing: border-box;
+  border-radius: 0.69444444rem;
+  background-color: #b32d26;
+}
+.container .wrap article.tech h3 {
+  margin-top: 0.69444444rem;
 }
 .container .wrap article.tech .txt-area {
   margin-top: 1.80555556rem;

@@ -28,6 +28,11 @@
                 &.on { .-b(@red,6);
                   a { color:@red; }
                 }
+                &.play { .bgc(#fff); .p(15,0);
+                  a { .fs(19); .wh(245,60); .lh(60); color:#fff; .bgc(@red); .br(13); .regular;
+                    img { .wh(27,27); .m(0,5); }
+                  }
+                }
               }
             }
             .close { .hide; }
@@ -50,13 +55,14 @@
             .sena { .wh(379,65); .contain('../images/pc/sena.png'); .mt(21); }
           }
           &.top { .p(90,0,120); .h(901); background: url("../images/pc/top-bg.png") no-repeat center center; .cover;
+            .ar-inner { overflow: visible; }
             h3 i { .wh(57,40); }
             .tit { .fs(35); .lh(46); .mb(13); }
             .intro-block { .w(370); .mt(60); .ib; .vat; .mr(95);
               &:last-child { .mr(0); }
               iframe { .wh(370,208); .mb(30); }
               .tit { .fs(30); }
-              .txt { .fs(23); .lh(30); .ls(-0.08em); }
+              .txt { .fs(22); .lh(30); .ls(-0.08em); .w(450); .ml(-40); }
             }
           }
           &.arti-evt { .-t(@red,8);
@@ -253,6 +259,10 @@
                 s { .fs(35); .lh(45); }
                 i { .fs(65); .regular; .lh(80); .ib; .vam; }
               }
+              .sub-tit { .fs(20); .lh(25); .ls(-0.05em); .mt(0); color:#000; .tc; .abs; .lt(50%,130); .w(250); .ml(-60);
+                img { .block; .wh(40,40); .mh-c; .mb(10); }
+                em { color:@red; .bold; }
+              }
               .h { .hide; }
               .txt1 { .fs(32); .lh(42); .mb(25); }
               .txt2 { .fs(23); .lh(30); }
@@ -269,12 +279,15 @@
               }
             }
           }
-          &.tech { .h(1241); background: url("../images/pc/tech-bg.png") no-repeat center center; .cover; .p(95,0,85); .tl;
-            h3 { .tc; .ib; .pl(45); .-box; }
-            .txt-area { .w(784); .m(40,0,65); .p(30,0,25); .tc;
-              &:after { .cnt; .wh(784,129); .contain('../images/pc/box.png'); }
-              .tit { .fs(32); .lh(40); .tc; .w(300); .abs; .lt(50%,-20); .ml(-150); }
-              .txt { .fs(28); .lh(40); }
+          &.tech { .h(1241); background: url("../images/pc/tech-bg.png") no-repeat center center; .cover; .p(60,0,85); .tl;
+            .top-h { .w(785); .tc;
+              span { .fs(30); .medium; color:#fff; .ib; .lh(50); .tc; .p(0,40); .-box; .br(25); .bgc(@red); }
+            }
+            h3 { .fs(45); .tc; .ib; .pl(45); .-box; .mt(25); }
+            .txt-area { .w(784); .m(20,0,56); .p(25,0,20); .tc;
+              &:after { .cnt; .wh(784,125); .contain('../images/pc/box.png'); }
+              .tit { .fs(30); .lh(40); .tc; .w(300); .abs; .lt(50%,-20); .ml(-150); }
+              .txt { .fs(23); .lh(40); }
             }
             .technic-wrap { .rel;
               &:after { .cnt; .wh(485,394); .contain('../images/pc/pp.png'); .abs; .rt(0,-386); }
